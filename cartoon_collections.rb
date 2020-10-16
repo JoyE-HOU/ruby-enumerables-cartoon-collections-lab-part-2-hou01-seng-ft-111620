@@ -35,5 +35,6 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.find { |element| element.include? "Wind!" }
   planeteer_calls.find { |element| element.include? "Fire!" }
   planeteer_calls.find { |element| element.include? "Water!" }
+  planeteer_calls.find { |element| element.include? "Heart!" }
   
 end
